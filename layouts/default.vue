@@ -106,11 +106,6 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
-        },
-        {
-          icon: 'mdi-cellphone-screenshot',
-          title: 'Scanner',
-          to: '/scanner'
         }
       ],
       miniVariant: false,
