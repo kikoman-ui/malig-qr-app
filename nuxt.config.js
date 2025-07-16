@@ -68,7 +68,7 @@ export default {
         },
         responseType: "token id_token",
         scope: ["openid", "profile", "email"],
-        redirectUri: "https://malig-qr-app.vercel.app/auth/callback",
+        redirectUri: "http://localhost:3000/auth/callback",
         codeChallengeMethod: "",
       },
     },
