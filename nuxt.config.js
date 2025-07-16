@@ -50,7 +50,7 @@ export default {
       login: '/auth/signin', // Redirect user when not connected
       logout: '/auth/signin', // Redirect user when logout
       callback: '/auth/callback', // callback url after login
-      home: "/qrcode", //After login redirect
+      home: "/auth/qrcode2", //After login redirect
     },
     autoFetchUser: false,
     strategies: {
